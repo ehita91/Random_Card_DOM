@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(10, 85, 10);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#number {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bottomsuite {
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+#topsuite {
+  font-size: 50px;
+}
+
+#btndv {
+  padding: 10px;
+}
+
+#btn {
+  border-radius: 10px;
+}
